@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCareerHub | Premium Job Portal</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                ProCareerHub
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#jobs" class="nav-link">Jobs</a></li>
+                    <li><a href="#companies" class="nav-link">Companies</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-secondary">Login</a>
+                <a href="#" class="btn">Register</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Your Next Career Starts Here</h1>
+            <p class="hero-subtitle">Connecting talented professionals with top companies around the globe</p>
+            <div class="search-container">
+                <div class="search-input-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Job title, keywords, or company">
+                </div>
+                <div class="search-dropdown">
+                    <select>
+                        <option>All Locations</option>
+                        <option>New York</option>
+                        <option>London</option>
+                        <option>Tokyo</option>
+                        <option>San Francisco</option>
+                        <option>Berlin</option>
+                    </select>
+                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                </div>
+                <div class="search-dropdown">
+                    <select>
+                        <option>All Categories</option>
+                        <option>Technology</option>
+                        <option>Finance</option>
+                        <option>Healthcare</option>
+                        <option>Education</option>
+                        <option>Marketing</option>
+                    </select>
+                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                </div>
+                <button class="search-btn">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+            <div class="hero-actions">
+                <a href="#" class="btn">
+                    <i class="fas fa-briefcase"></i> Find Jobs
+                </a>
+                <a href="#" class="btn btn-accent">
+                    <i class="fas fa-plus"></i> Post a Job
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="jobs" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Opportunities</h2>
+                <p class="section-subtitle">Explore the latest openings from innovative companies</p>
+            </div>
+            <div class="jobs-filter">
+                <button class="filter-btn active"><i class="fas fa-layer-group"></i> All Jobs</button>
+                <button class="filter-btn"><i class="fas fa-laptop-house"></i> Remote</button>
+                <button class="filter-btn"><i class="fas fa-business-time"></i> Full-time</button>
+                <button class="filter-btn"><i class="fas fa-clock"></i> Part-time</button>
+                <button class="filter-btn"><i class="fas fa-file-contract"></i> Contract</button>
+            </div>
+            <div class="jobs-grid">
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="job-meta">
+                            <span class="job-type remote">Remote</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Senior Frontend Developer</h3>
+                    <span class="job-company">TechNova</span>
+                    <div class="job-details">
+                        <div class="job-detail"><i class="fas fa-map-marker-alt"></i> <span>California, USA</span></div>
+                        <div class="job-detail"><i class="fas fa-briefcase"></i> <span>Full-time</span></div>
+                        <div class="job-detail"><i class="fas fa-graduation-cap"></i> <span>Master's</span></div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-salary">$120,000 - $150,000</div>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="job-meta">
+                            <span class="job-type fulltime">Full-time</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Product Designer</h3>
+                    <span class="job-company">InnovateX</span>
+                    <div class="job-details">
+                        <div class="job-detail"><i class="fas fa-map-marker-alt"></i> <span>New York, USA</span></div>
+                        <div class="job-detail"><i class="fas fa-briefcase"></i> <span>Full-time</span></div>
+                        <div class="job-detail"><i class="fas fa-graduation-cap"></i> <span>Bachelor's</span></div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-salary">$110,000 - $140,000</div>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="job-meta">
+                            <span class="job-type contract">Contract</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Mobile App Developer</h3>
+                    <span class="job-company">AppWorks</span>
+                    <div class="job-details">
+                        <div class="job-detail"><i class="fas fa-map-marker-alt"></i> <span>Texas, USA</span></div>
+                        <div class="job-detail"><i class="fas fa-briefcase"></i> <span>Contract</span></div>
+                        <div class="job-detail"><i class="fas fa-graduation-cap"></i> <span>Bachelor's</span></div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-salary">$130,000 - $160,000</div>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i> View All Jobs</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="companies" class="section companies-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top Employers</h2>
+                <p class="section-subtitle">Find opportunities at leading companies worldwide</p>
+            </div>
+            <div class="companies-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="company-slide swiper-slide">
+                        <div class="company-logo-large"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="company-name">TechNova</h3>
+                        <div class="company-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            <span>4.5</span>
+                        </div>
+                        <div class="company-jobs">124 open positions</div>
+                        <a href="#" class="btn">View Jobs</a>
+                    </div>
+                    <div class="company-slide swiper-slide">
+                        <div class="company-logo-large"><i class="fas fa-briefcase"></i></div>
+                        <h3 class="company-name">InnovateX</h3>
+                        <div class="company-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <div class="company-jobs">98 open positions</div>
+                        <a href="#" class="btn">View Jobs</a>
+                    </div>
+                    <div class="company-slide swiper-slide">
+                        <div class="company-logo-large"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 class="company-name">AppWorks</h3>
+                        <div class="company-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="company-jobs">87 open positions</div>
+                        <a href="#" class="btn">View Jobs</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose ProCareerHub</h2>
+                <p class="section-subtitle">Your premier platform for professional growth and opportunities</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <dotlottie-wc src="https://lottie.host/b6b835ee-bd79-4fdc-83ab-2339e2da8e3e/ETUT5abS6R.lottie" style="width: 300px;height: 100px" speed="1" autoplay loop></dotlottie-wc>
+                    </div>
+                    <h3 class="feature-title">Streamlined Application</h3>
+                    <p class="feature-desc">Apply to multiple jobs quickly and save your resume templates for convenience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <dotlottie-wc src="https://lottie.host/f546fa9d-ba76-4bab-a433-b4f64d7ee4da/peZZstHgsb.lottie" style="width: 300px;height: 100px" speed="1" autoplay loop></dotlottie-wc>
+                    </div>
+                    <h3 class="feature-title">Verified Companies</h3>
+                    <p class="feature-desc">All companies undergo verification for authentic and quality job listings.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <dotlottie-wc src="https://lottie.host/cbf9e115-2040-43db-b289-9cfbfb052ef5/BxO9EaWlaI.lottie" style="width: 300px;height: 100px" speed="1" autoplay loop></dotlottie-wc>
+                    </div>
+                    <h3 class="feature-title">Career Growth Resources</h3>
+                    <p class="feature-desc">Access exclusive webinars, coaching, and resources for professional growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Hear from professionals who found their dream roles through ProCareerHub</p>
+            </div>
+            <div class="testimonials-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <div class="testimonial-content">
+                            "ProCareerHub completely transformed my job search. The personalized recommendations and easy application process helped me land my ideal role at TechNova within a month. Highly recommended for any professional looking for growth."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-details">
+                                <div class="author-name">Emily Carter</div>
+                                <div class="author-role">Frontend Developer at TechNova</div>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
