@@ -155,5 +155,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 - **Prem C. Sagarkar**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+- GitHub: [@Premsagarkar](https://github.com/Premsagarkar)
+- LinkedIn: [ Prem Sagarkar](https://www.linkedin.com/in/prem-sagarkar-59037538a/)
